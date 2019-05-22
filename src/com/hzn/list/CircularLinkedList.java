@@ -34,7 +34,7 @@ public class CircularLinkedList {
 	}
 
 	/**
-	 * 根据下标插入元素，实现跟单链表一样,时间复杂度O(n)
+	 * 根据下标插入元素，时间复杂度O(n)
 	 * 
 	 * @param index
 	 * @param newNode
@@ -83,7 +83,7 @@ public class CircularLinkedList {
 	}
 
 	/**
-	 * 根据下标删除元素，和单链表实现方式一致,时间复杂度O(n)
+	 * 根据下标删除元素，时间复杂度O(n)
 	 * 
 	 * @param index
 	 * @return
