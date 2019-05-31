@@ -12,3 +12,4 @@ Algorithms Practice..
 
 + [实现一个单链表，支持增删操作，支持反转链表](https://github.com/huangzhengneng/Algorithms/blob/master/src/com/hzn/list/SingleList.java)
 + [实现一个循环单链表，支持增删操作](https://github.com/huangzhengneng/Algorithms/blob/master/src/com/hzn/list/CircularLinkedList.java)
++ [实现一个双向链表，支持增删操作](https://github.com/huangzhengneng/Algorithms/blob/master/src/com/hzn/list/DoubleyLinkedList.java)
