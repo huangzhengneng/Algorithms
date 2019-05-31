@@ -182,6 +182,36 @@ public class SingleList {
 		head = pre;
 	}
 
+	/**
+	 * 求链表的中间节点，前提是不知道size
+	 * 
+	 * 如果size是偶数，返回中间两个节点的平均值，如果是奇数，返回该节点的值
+	 * 
+	 * 快慢指针法：慢指针一次移动一位，快指针一次移动2位
+	 * 
+	 * 退出循环，即fast或者fast.next为空
+	 * 
+	 * fast为空，说明size是偶数。fast.next为空，说明是奇数
+	 * 
+	 * @return
+	 */
+	public float getMediumNode() {
+		Node low = head, fast = head, pre = null;
+		while (fast != null && fast.next != null) {
+			fast = fast.next.next;
+			pre = low;
+			low = low.next;
+		}
+		if (fast == null) {
+			// 偶数
+			return (pre.data + low.data) / 2.0f;
+		} else if (fast.next == null) {
+			// 奇数
+			return low.data;
+		}
+		return 0;
+	}
+
 	@Override
 	public String toString() {
 		StringBuilder stringBuilder = new StringBuilder();
@@ -211,5 +241,11 @@ public class SingleList {
 		// System.out.println(singleList.toString());
 		singleList.reverse();
 		System.out.println(singleList.toString());
+		float medium = singleList.getMediumNode();
+		System.out.println("medium node value is: " + medium);
+		singleList.insertTail(new Node(7, null));
+		System.out.println(singleList.toString());
+		medium = singleList.getMediumNode();
+		System.out.println("medium node value is: " + medium);
 	}
 }
