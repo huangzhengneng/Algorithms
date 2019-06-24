@@ -211,6 +211,26 @@ public class SingleList {
 		}
 		return 0;
 	}
+	
+	/**
+	 * 检测单链表是否存在环
+	 * 
+	 * @return
+	 */
+	public boolean hasCycle() {
+		if (head == null || head.next == null) {
+			return false;
+		}
+		Node low = head, fast = head;
+		while (fast != null && fast.next != null) {
+			fast = fast.next.next;
+			low = low.next;
+			if (fast == low) {
+				return true;
+			}
+		}
+		return false;
+	}
 
 	@Override
 	public String toString() {
