@@ -10,7 +10,7 @@ Algorithms Practice..
 
 ## LinkedList
 
-+ [实现一个单链表，支持增删操作，支持反转链表，支持获取中间节点值](https://github.com/huangzhengneng/Algorithms/blob/master/src/com/hzn/list/SingleList.java)
++ [实现一个单链表，支持增删操作，支持反转链表，支持获取中间节点值，支持检测环](https://github.com/huangzhengneng/Algorithms/blob/master/src/com/hzn/list/SingleList.java)
 + [实现一个循环单链表，支持增删操作](https://github.com/huangzhengneng/Algorithms/blob/master/src/com/hzn/list/CircularLinkedList.java)
 + [实现一个双向链表，支持增删操作](https://github.com/huangzhengneng/Algorithms/blob/master/src/com/hzn/list/DoubleyLinkedList.java)
 + [实现一个有序单链表，支持增删操作，支持两个有序链表合并](https://github.com/huangzhengneng/Algorithms/blob/master/src/com/hzn/list/SortedLinkedList.java)
