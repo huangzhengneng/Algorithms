@@ -14,3 +14,8 @@ Algorithms Practice..
 + [实现一个循环单链表，支持增删操作](https://github.com/huangzhengneng/Algorithms/blob/master/src/com/hzn/list/CircularLinkedList.java)
 + [实现一个双向链表，支持增删操作](https://github.com/huangzhengneng/Algorithms/blob/master/src/com/hzn/list/DoubleyLinkedList.java)
 + [实现一个有序单链表，支持增删操作，支持两个有序链表合并](https://github.com/huangzhengneng/Algorithms/blob/master/src/com/hzn/list/SortedLinkedList.java)
+
+## Stack
+
++ [用数组实现一个顺序栈](https://github.com/huangzhengneng/Algorithms/blob/master/src/com/hzn/stack/StackWithArray.java)
++ [用链表实现一个链式栈](https://github.com/huangzhengneng/Algorithms/blob/master/src/com/hzn/stack/StackWithLinkedList.java)
